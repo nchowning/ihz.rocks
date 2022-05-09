@@ -1,4 +1,4 @@
-baseURL = 'ihz.rocks/'
+baseURL = 'https://ihz.rocks/'
 languageCode = 'en-us'
 title = 'iHz.rocks'
 theme = 'ink'
