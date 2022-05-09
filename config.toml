@@ -1,0 +1,88 @@
+baseURL = 'https://ihz.rocks'
+languageCode = 'en-us'
+title = 'iHz.rocks'
+theme = 'ink'
+
+paginate = 5
+
+copyright = "© Copyright Nathan Chowning"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "ink-demo"
+
+[params]
+	subtitle = "Chiptune artist from Columbus, OH"
+
+	# Optional 64x64 avatar image.
+	avatar = "https://0.gravatar.com/avatar/69e50ec72f8a5edf46b26f10e2082dcb?s=120"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# MAIN MENU
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 10
+
+[[menu.main]]
+name = "WeeklyBeats"
+url = "https://weeklybeats.com/iHz"
+weight = 11
+
+# SUB MENU
+[[menu.submain]]
+name = "Music"
+url = "/tags/music"
+weight = 10
+
+# SUB MENU
+[[menu.submain]]
+name = "Covers"
+url = "/tags/cover"
+weight = 11
+
+[[menu.submain]]
+name = "All posts"
+url = "/posts"
+weight = 15
+
+[[menu.submain]]
+name = "All Tags"
+url = "/tags"
+weight = 20
+
+# SOCIAL
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/iHzMusic"
+
+[[params.social]]
+name = "Youtube"
+icon = "youtube"
+url = "https://www.youtube.com/user/nbchowning"
+
+[[params.social]]
+name = "SoundCloud"
+icon = "headphones"
+url = "https://soundcloud.com/ihzrocks"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
