@@ -1,7 +1,7 @@
 baseURL = 'https://ihz.rocks/'
 languageCode = 'en-us'
 title = 'iHz.rocks'
-theme = 'ink'
+theme = "ink"
 
 paginate = 5
 
@@ -86,3 +86,6 @@ url = "/index.xml"
 
 [taxonomies]
    tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
