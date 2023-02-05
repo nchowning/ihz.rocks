@@ -1,6 +1,23 @@
-<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
-  <audio controls preload="{{ .Get "preload" | default "metadata" }}">
-    {{ with .Get "src" }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+{{- $src := "" -}}
+{{- $caption := "" -}}
+{{- $class := "" -}}
+{{- $preload := "" -}}
+
+{{- if .IsNamedParams }}
+    {{- $src = .Get "src" -}}
+    {{- $caption = .Get "caption" -}}
+    {{- $class = .Get "class" -}}
+    {{- $preload = .Get "preload" | default "metadata" -}}
+{{- else }}
+    {{- $src = .Get 0 -}}
+    {{- $caption = .Get 1 -}}
+    {{- $class = .Get 2 -}}
+    {{- $preload = .Get 3 -}}
+{{- end }}
+
+<figure{{ with $class }} class="{{ . }}"{{ end }}>
+  {{ with $caption }}<figcaption align="left"><strong>{{ . }}</strong></figcaption>{{ end }}
+  <audio controls class="player" preload="{{ $preload }}">
+    {{ with $src }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
   </audio>
-  {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>

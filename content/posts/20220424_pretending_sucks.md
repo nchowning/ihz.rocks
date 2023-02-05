@@ -5,6 +5,7 @@ youtube: Pa_fqcQ-TAo
 tags:
 - Music
 - Weekly Beats
+- Weekly Beats 2022
 draft: false
 ---
 
