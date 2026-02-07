@@ -16,7 +16,8 @@ pygmentscodefencesguesssyntax = true
 # disqusShortname = "ink-demo"
 
 [params]
-	subtitle = "Chiptune artist from Columbus, OH"
+	logo = "/images/logo.png"
+	# subtitle = "Chiptune artist from Columbus, OH"
 
 	# Optional 64x64 avatar image.
 	avatar = "/images/profile.png"
