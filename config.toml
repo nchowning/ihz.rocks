@@ -3,7 +3,8 @@ languageCode = 'en-us'
 title = 'iHz.rocks'
 theme = "ink"
 
-paginate = 5
+[pagination]
+pagerSize = 5
 
 copyright = "© Copyright Nathan Chowning"
 
