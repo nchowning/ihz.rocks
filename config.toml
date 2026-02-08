@@ -20,7 +20,7 @@ pygmentscodefencesguesssyntax = true
 	# subtitle = "Chiptune artist from Columbus, OH"
 
 	# Optional 64x64 avatar image.
-	avatar = "/images/profile.png"
+	# avatar = "/images/profile.png"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]

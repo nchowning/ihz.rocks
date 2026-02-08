@@ -3,7 +3,7 @@ title: "About"
 draft: false
 ---
 
-![Nathan Chowning (iHz)](/profile_picture.png)
+![Nathan Chowning (iHz)](/images/profile.png)
 
 Hi! I'm Nathan. From an early age, music was a big part of my life. I started playing guitar when I was 9 years old and started singing shortly after. I can play various other instruments with varying degrees of competency - drums, bass, keys.
 
