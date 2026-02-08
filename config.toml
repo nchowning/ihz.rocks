@@ -66,20 +66,20 @@ url = "/tags"
 weight = 20
 
 # SOCIAL
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/iHzMusic"
+# [[params.social]]
+# name = "Twitter"
+# icon = "twitter"
+# url = "https://twitter.com/iHzMusic"
 
 [[params.social]]
 name = "Youtube"
 icon = "youtube"
 url = "https://www.youtube.com/user/nbchowning"
 
-[[params.social]]
-name = "SoundCloud"
-icon = "headphones"
-url = "https://soundcloud.com/ihzrocks"
+# [[params.social]]
+# name = "SoundCloud"
+# icon = "headphones"
+# url = "https://soundcloud.com/ihzrocks"
 
 [[params.social]]
 name = "RSS"
